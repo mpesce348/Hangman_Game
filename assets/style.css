@@ -14,7 +14,7 @@ body {
 	color: purple;
 
 }
-h1 {
+.h1 {
 	font-size: 300px;
 	color: purple;
 	font-style: thick;
@@ -23,7 +23,9 @@ h1 {
 #titleImage {
 	max-height: 100px;
 	float: right;
-}	
+	
+}
+
 
 #hangmanImg {
 	border-color: purple;
@@ -31,8 +33,9 @@ h1 {
 	border-width: 5px;
 	width: 40%;
 	padding: 50px;
-	padding-bottom: 530px;
 	margin-left: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 #gameBox {
 	border-color: purple;
@@ -40,9 +43,9 @@ h1 {
 	border-style: solid;
 	width: 40%;
 	padding: 50px;
-	padding-bottom: 500px;
 	float: right;
 	margin-right: 100px;
+	margin-top: 50px;
 
 }
 .row {
@@ -61,4 +64,14 @@ h1 {
 }
 #lowerHalf {
 	text-align: center;
+}
+#upperHalf {
+	
+} 
+#bigHulk {
+	width: 400px;
+}
+#hulkLogo {
+	margin-bottom: -75px;
+	width: 700px;
 }
