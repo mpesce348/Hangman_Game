@@ -1,0 +1,54 @@
+html {
+	background-color: green;
+	
+	
+}
+body {
+	width: 100%;
+	background: green;
+	background-color: green;
+	border-style: inherit;
+	border-width: thick;
+	text-align: center;
+	border-color: purple;
+	color: purple;
+
+}
+h1 {
+	font-size: 172px;
+	color: purple;
+}
+
+#titleImage {
+	max-height: 100px;
+	float: right;
+}	
+
+#titlebox {
+	width: 100%;
+}
+
+#hangmanImg {
+	border-color: black;
+	border-width: 10px;
+	width: 100%;
+}
+#gamebox {
+	border-color: black;
+	border-width: 10px;
+	max-width: 300px;
+	width: 300px;
+
+}
+.row {
+	width: 100%;
+}
+.col-lg-12 {
+	background-color: green;
+	width: 100%
+}
+.col-lg-6 {
+	border-color: purple;
+	border-width: 100px;
+	border-style: thick;
+}
