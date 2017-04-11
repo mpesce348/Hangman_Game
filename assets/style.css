@@ -15,8 +15,9 @@ body {
 
 }
 h1 {
-	font-size: 172px;
+	font-size: 300px;
 	color: purple;
+	font-style: thick;
 }
 
 #titleImage {
@@ -24,31 +25,40 @@ h1 {
 	float: right;
 }	
 
-#titlebox {
-	width: 100%;
-}
-
 #hangmanImg {
-	border-color: black;
-	border-width: 10px;
-	width: 100%;
+	border-color: purple;
+	border-style: solid;
+	border-width: 5px;
+	width: 40%;
+	padding: 50px;
+	padding-bottom: 530px;
+	margin-left: 100px;
 }
-#gamebox {
-	border-color: black;
-	border-width: 10px;
-	max-width: 300px;
-	width: 300px;
+#gameBox {
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+	width: 40%;
+	padding: 50px;
+	padding-bottom: 500px;
+	float: right;
+	margin-right: 100px;
 
 }
 .row {
 	width: 100%;
+	
 }
 .col-lg-12 {
 	background-color: green;
-	width: 100%
+	width: 100%;
+	border-color: purple;
+	border-style: solid;
+	
 }
 .col-lg-6 {
-	border-color: purple;
-	border-width: 100px;
-	border-style: thick;
+	
+}
+#lowerHalf {
+	text-align: center;
 }
